@@ -261,7 +261,6 @@ body {
 @media screen and (min-width: 768px) {
   .container-nav {
     display: flex;
-    gap: 40px;
     align-items: center;
     margin-right: auto;
   }
@@ -384,7 +383,7 @@ body {
 @media screen and (min-width: 1158px) {
   .container-adv {
     padding-top: 120px;
-    padding-bottom: 12px;
+    padding-bottom: 120px;
   }
 }
 
@@ -402,7 +401,7 @@ body {
     flex-wrap: wrap;
   }
   .advantage-item {
-    width: calc((100% - 48px) / 2);
+    width: calc((100% - 24px) / 2);
   }
 }
 
@@ -423,8 +422,8 @@ body {
   margin-bottom: 8px;
   font-size: 36px;
   line-height: calc(40 / 36);
-text-align: center;
-
+  text-align: center;
+  font-weight: 500;
 }
 @media screen and (min-width: 768px) {
   .advantage-name{
@@ -436,6 +435,7 @@ text-align: center;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    
   }
 }
 
@@ -654,7 +654,7 @@ text-align: center;
 
 @media screen and (min-width: 768px) {
   .customers-list {
-    gap: 88px 24px;
+    gap: 72px 24px;
   }
 }
 
@@ -954,7 +954,7 @@ text-align: center;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-left: auto;
-  margin-right: auto;
+  
 }
 
 .footer-subscribe-icon {
